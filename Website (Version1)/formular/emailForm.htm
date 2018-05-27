@@ -1,0 +1,83 @@
+<!doctype html> <!-- Kommentar  -->
+<html>
+<head>
+
+<title>HTML5 </title>
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html; charset=utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: .8em;
+	color: #3A3F29;
+}
+fieldset {
+	background-color: #E6F4AA;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+h1 {
+	text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>Email Formular</h1>
+<form id="wunsch" action="absenden.php" method="post" enctype="application/x-www-form-urlencoded">
+
+<fieldset><legend>Absender</legend>
+<p><label for="first_name">Vorname:</label><br>
+<input type="text" size="40" name="first_name" id="first_name"></p>
+
+<p><label for="last_name">Nachname:</label><br>
+<input type="text" size="40" name="last_name" id="last_name"></p>
+
+<p><label for="adresse">Adresse:</label><br>
+<input type="text" size="40" name="adresse" id="adresse"></p>
+
+<p><label>Ihre Email Adresse:<br>
+<input type="text" size="40" name="email"></label></p>
+
+<p><label>Telefon:<br>
+<input type="text" size="40" name="telephone"></label></p>
+
+
+
+</fieldset>
+
+<fieldset><legend>Ihre Nachricht</legend>
+
+
+<p><label>Nachricht:<br>
+<textarea name="comments" cols="30" rows="10"></textarea></label></p>
+
+</fieldset>
+
+<fieldset><legend>Eingaben</legend>
+<input type="submit" value="Absenden">
+</fieldset>
+</form>
+<p>Hier ein Tipp, f&uuml;r ein einfaches Emailformular mit einem dazugeh&ouml;rigen PHP Script</p>
+<p><a href="http://www.php-kurs.com/email-per-php.htm">http://www.php-kurs.com/email-per-php.htm</a></p>
+<p>oder dieses ist etwas komplizierter, aber hier hat man ein Problem mit Sonderzeichen</p>
+<p><a href="http://www.freecontactform.com/email_form.php">http://www.freecontactform.com/email_form.php</a></p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
